@@ -4,16 +4,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>To Do List | CodeGlimpse</title>
-        <meta name="description" content="">
+        <meta name="description" content="Compute Grade">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="/styles/styles.css">
         <script src="app.js" async defer></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        
+        <div id="mainDiv" class="main-div">
+            <h2 style="text-align: center;">To Do List</h2>
+            <input type="text" id="taskDetails" class="input" placeholder="Enter task description...">
+            <button type="button" id="add" class="btn">Add Task</button>
+            <p id="txtout"></p>
+            <ul id="taskList">
+                <li>Pay mobile bill</li>
+                <li>Create monthly sales review presentation</li>
+                <li>Call doctor for appointment</li>
+            </ul>
+        </div>
     </body>
 </html>
