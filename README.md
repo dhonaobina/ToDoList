@@ -1,18 +1,18 @@
 # To Do List App
-### Creating HTML Elements Using DOM Methods
+## Creating HTML Elements Using DOM Methods
 
-## What is the HTML DOM?
+### What is the HTML DOM?
 
 The HTML DOM (Document Object Model) is a representation of the structure and content of a web page. 
 It is a tree-like structure that consists of nodes, which are objects that have properties and methods. 
 The HTML DOM allows you to access and modify the page elements using JavaScript.
 
-## What languages used?
+### What languages used?
 - HTML
 - CSS
 - JavaScript
 
-## How to create HTML elements using the DOM methods?
+### How to create HTML elements using the DOM methods?
 
 To create HTML elements using the DOM methods, you need to follow these steps:
 
@@ -40,3 +40,18 @@ p.appendChild(text);
 p.setAttribute("class", "greeting");
 
 ```
+## Working with Loops
+
+### What is Loops?
+
+To execute a set of instructions, operations, or statements for several times until a specific condition is met. This process is known as iteration. You can implement the iteration process in scripts with the help of loops. A loop repeatedly runs through the set of instructions and stops execution on fulfilling the condition specified.
+
+#### Types of Loops
+
+- **for loop** - You can use this loop if you want to repeat the execution of a code block multiple times.
+
+- **for/in loop** - This loop is a type of for loop. It iterates through the properties of a declared object.
+
+- **while loop** - This loop executes the set of statements while the specified condition returns a true value. The moment the specified condition returns a false value, the while loop will not perform the iteration. Thus, the while loop checks the condition and then performs the iteration.
+
+- **do/while loop** - This loop is a type of while loop. It first executes the code block and then checks if the condition is true. The do/while loop then repeats the execution until the condition returns a true value.
