@@ -1,6 +1,6 @@
 var tasks = document.getElementsByTagName("LI");
 var i = 0;
-while (i < tasks.length)
+do
 {
     var statusbtn = document.createElement("button");
     var btnText = document.createTextNode("Pending");
@@ -9,8 +9,7 @@ while (i < tasks.length)
     statusbtn.appendChild(btnText);
     tasks[i].appendChild(statusbtn);
     i++;
-}
-
+} while (i < tasks.length);
 var btns = document.getElementsByClassName("status");
 for (j=0; j<=btns.length; j++)
 // for (var j in btns)

@@ -55,3 +55,12 @@ To execute a set of instructions, operations, or statements for several times un
 - **while loop** - This loop executes the set of statements while the specified condition returns a true value. The moment the specified condition returns a false value, the while loop will not perform the iteration. Thus, the while loop checks the condition and then performs the iteration.
 
 - **do/while loop** - This loop is a type of while loop. It first executes the code block and then checks if the condition is true. The do/while loop then repeats the execution until the condition returns a true value.
+
+
+## Conclusion
+
+In this project, I learned how to create HTML elements using the DOM methods and working with Loops. 
+As well as learning how to create a simple To Do List page using HTML, CSS, and JavaScript. 
+By using the DOM methods & Loops it can create and manipulate any page elements dynamically and add some interactivity and style to a web applications. 
+
+I  enjoyed this exercise and learned something new. Happy coding!
