@@ -1,3 +1,23 @@
+var tasks = document.getElementsByTagName("LI");
+var i = 0;
+while (i < tasks.length)
+{
+    var statusbtn = document.createElement("button");
+    var btnText = document.createTextNode("Pending");
+    var txt = "btn";
+    statusbtn.className = "status";
+    statusbtn.appendChild(btnText);
+    tasks[i].appendChild(statusbtn);
+    i++;
+}
+
+var btns = document.getElementsByClassName("status");
+for (j=0; j<=btns.length; j++)
+// for (var j in btns)
+{
+    btns[j].addEventListener('click', function (ev) {ev.target.innerHTML = "Completed";}, false);
+}
+
 function addItem() {
     var listItem = document.createElement("li");
     var taskDesc = document.getElementById("taskDetails").value;
@@ -23,19 +43,6 @@ function addItem() {
     }
 }
 
-var tasks = document.getElementsByTagName("LI");
-for (var i=0; i < tasks.length; i++) 
-{
-    var statusbtn = document.createElement("button");
-    var btnText = document.createTextNode("Pending");
-    var txt = "btn";
-    statusbtn.className = "status";
-    statusbtn.appendChild(btnText);
-    tasks[i].appendChild(statusbtn);
-}
 
-var btns = document.getElementsByClassName("status");
-for (j=0; j<=btns.length; j++)
-{
-    btns[j].addEventListener('click', function (ev) {ev.target.innerHTML = "Completed";}, false);
-}
+
+
