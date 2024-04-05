@@ -1,4 +1,6 @@
 # To Do List App
+![image](https://github.com/dhonaobina/ToDoList/assets/113093370/c2a8e0c3-4f15-4a32-b818-a79e26f2f73b)
+
 ## Creating HTML Elements Using DOM Methods
 
 ### What is the HTML DOM?
